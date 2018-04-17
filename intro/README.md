@@ -1,6 +1,4 @@
-[Functional Programming > Introdunction](https://www.hackerrank.com/domains/fp/intro)
-
----
+# [Functional Programming > Introdunction](https://www.hackerrank.com/domains/fp/intro)
 
 ### Table of Problems
 

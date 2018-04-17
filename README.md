@@ -1,5 +1,4 @@
 # [Functional Programming](https://www.hackerrank.com/domains/fp)
----
 
 If you try to solve a problem named "Something-new-problem" of "Introduction"
 domain, then you would make some boilerplate or just run script file like this.

@@ -4,7 +4,7 @@ echo "
 object Solution {
 
   def main(args: Array[String]): Unit =
-    println(run(io.Source.stdin.getLines.toList).mkString(\"\n\")
+    println(run(io.Source.stdin.getLines.toList).mkString(\"\n\"))
 
   def run(inputs: List[String]): List[String] = ???
 }

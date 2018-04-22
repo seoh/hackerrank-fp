@@ -4,7 +4,7 @@ echo "
 object Solution {
 
   def main(args: Array[String]): Unit =
-    println(run(io.Source.stdin.getLines.toList))
+    println(run(io.Source.stdin.getLines.toList).mkString(\"\n\")
 
   def run(inputs: List[String]): List[String] = ???
 }
@@ -15,7 +15,12 @@ import minitest._
 
 object SolutionSuite extends SimpleTestSuite {
   test(\"should be\") {
-    assertEquals(run(List()), List()) 
+    val stdin: List[String] = List(
+    )
+    val stdout: List[String] = List(
+    )
+
+    assertEquals(Solution.run(stdin), stdout) 
   }
 }
 " > "$1"/src/test/scala/SolutionTest.scala

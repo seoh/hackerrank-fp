@@ -9,3 +9,4 @@ testFrameworks in Global += new TestFramework("minitest.runner.Framework")
 
 lazy val `functional-programming-warmups-in-recursion---gcd` = project in file("functional-programming-warmups-in-recursion---gcd")
 lazy val `pascals-triangle` = project in file("pascals-triangle")
+lazy val `functions-and-fractals-sierpinski-triangles` = project in file("functions-and-fractals-sierpinski-triangles")
